@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>IAmRaf.SimpleParser</RootNamespace>
+    <Copyright>Copyright 2017 (c) Raffaele Rialdi. All rights reserved.</Copyright>
+    <Authors>Raffaele Rialdi @raffaeler</Authors>
+    <Company>Raffaele Rialdi</Company>
+    <Description>A library to convert textual expressions into Linq Expressions. It supports predicates, algebraic functions with multiple parameters and call to methods (x^2 is equivalent to POW(x, 2)).</Description>
+    <PackageTags>Parser, Linq, Expression, Functions, Algebra, Unknown, Predicate, Compiled</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <CodeAnalysisRuleSet></CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <CodeAnalysisRuleSet></CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StyleCop.Analyzers" Version="1.0.2" />
+  </ItemGroup>
+
+</Project>

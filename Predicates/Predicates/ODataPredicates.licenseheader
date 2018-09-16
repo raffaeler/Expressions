@@ -1,0 +1,14 @@
+﻿extensions: designer.cs generated.cs
+extensions: .cs .cpp .h
+// Copyright (c) 2017, Raffaele Rialdi
+//
+extensions: .aspx .ascx
+<%-- 
+Copyright (c) 2017, Raffaele Rialdi
+--%>
+extensions: .vb
+See the repository license on GitHub
+extensions:  .xml .config .xsd
+<!--
+See the repository license on GitHub
+-->
